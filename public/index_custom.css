@@ -1,0 +1,354 @@
+/* theme-dark [START]*/
+.theme-dark .chart-page {
+      background-color: rgb(35, 35, 35) !important;
+      border-color    : rgb(35, 35, 35) !important;
+}
+
+.theme-dark .layout__area--center {
+      background-color: rgb(35, 35, 35) !important;
+}
+
+.theme-dark .header-chart-panel-sizer {
+      background-color: rgb(35, 35, 35) !important;
+}
+
+.theme-dark .chart-controls-bar-buttons a:hover {
+      background-color: rgb(83, 83, 83) !important;
+}
+
+.theme-dark .chart-controls-bar {
+      background-color: rgb(35, 35, 35) !important;
+}
+
+.theme-dark .layout__area--left div[class^="drawingToolbar"] {
+      background-color: rgb(35, 35, 35) !important;
+      top             : -1px !important;
+}
+
+
+.theme-dark .chart-markup-table {
+      background: rgb(35, 35, 35) !important;
+}
+
+.theme-light .text-defaut {
+      color: #fff !important;
+}
+
+.theme-dark .text-buy {
+      color      : #0f0 !important;
+      font-weight: bold;
+}
+
+.theme-dark .text-sell {
+      color      : #ff2626 !important;
+      font-weight: bold;
+}
+
+.theme-dark .text-order {
+      color      : #10b4a7 !important;
+      font-weight: bold;
+}
+
+.theme-dark .context-menu tr:hover {
+      background-color: rgb(100, 100, 100) !important;
+}
+
+.theme-dark .tr-menu-order {
+      /* background-color: rgb(28, 32, 48); */
+      background-color: rgb(30, 35, 60);
+      border-bottom   : 1px solid rgba(100, 100, 100, 0.5);
+}
+
+
+.theme-dark .context-menu-wrapper::-webkit-scrollbar {
+      width : 8px;
+      height: 8px;
+}
+
+::-webkit-scrollbar-button {
+      width  : 0;
+      height : 0;
+      display: none;
+}
+
+::-webkit-scrollbar-corner {
+      background-color: transparent;
+}
+
+::-webkit-scrollbar-track:vertical {
+      background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track:horizontal {
+      background-clip: padding-box
+}
+
+::-webkit-scrollbar-track:vertical {
+      background-color  : rgba(107, 107, 107, 0.07);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(107, 107, 107, 0.28), inset -1px -1px 0 rgba(107, 107, 107, 0.14)
+}
+
+::-webkit-scrollbar-track:horizontal {
+      background-color  : rgba(107, 107, 107, 0.07);
+      -webkit-box-shadow: inset -1px 1px 0 rgba(107, 107, 107, 0.28), inset 1px -1px 0 rgba(107, 107, 107, 0.14)
+}
+
+::-webkit-scrollbar-track:vertical:active {
+      background-color  : rgba(107, 107, 107, 0.10);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(107, 107, 107, 0.28), inset -1px -1px 0 rgba(107, 107, 107, 0.14)
+}
+
+::-webkit-scrollbar-track:horizontal:active {
+      background-color  : rgba(107, 107, 107, 0.10);
+      -webkit-box-shadow: inset -1px 1px 0 rgba(107, 107, 107, 0.28), inset 1px -1px 0 rgba(107, 107, 107, 0.14)
+}
+
+::-webkit-scrollbar-thumb:vertical {
+      background-clip: padding-box;
+      min-height     : 28px
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+      background-clip: padding-box;
+      min-width      : 28px
+}
+
+::-webkit-scrollbar-thumb {
+      background-color  : rgba(107, 107, 107, 0.4);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(107, 107, 107, 0.10), inset 0 -1px 0 rgba(107, 107, 107, 0.07)
+}
+
+::-webkit-scrollbar-thumb:hover {
+      background-color  : rgba(107, 107, 107, 0.8);
+      -webkit-box-shadow: inset 1px 1px 1px rgba(107, 107, 107, 0.50)
+}
+
+::-webkit-scrollbar-thumb:active {
+      background-color  : rgba(107, 107, 107, 0.9);
+      -webkit-box-shadow: inset 1px 1px 3px rgba(107, 107, 107, 0.6)
+}
+
+/* theme-dark [END]========================================================================*/
+
+
+/* theme-light [START]*/
+.theme-light .chart-page {
+      background-color: rgb(235, 235, 235) !important;
+      border-color    : rgb(250, 250, 250) !important;
+}
+
+.theme-light .layout__area--center {
+      background-color: rgb(235, 235, 235) !important;
+}
+
+.theme-light .header-chart-panel-sizer {
+      background-color: rgb(235, 235, 235) !important;
+}
+
+.theme-light .chart-controls-bar-buttons a:hover {
+      background-color: rgb(200, 200, 200) !important;
+}
+
+.theme-light .chart-controls-bar {
+      background-color: rgb(235, 235, 235) !important;
+}
+
+.theme-light .layout__area--left div[class^="drawingToolbar"] {
+      background-color: rgb(235, 235, 235) !important;
+      top             : -1px !important;
+}
+
+.theme-light .chart-markup-table {
+      background: rgb(235, 235, 235) !important;
+}
+
+.theme-light .text-defaut {
+      color: #000 !important;
+}
+
+.theme-light .text-buy {
+      color      : #1ac316 !important;
+      font-weight: bold;
+}
+
+.theme-light .text-sell {
+      color      : #ff2626 !important;
+      font-weight: bold;
+}
+
+.theme-light .text-order {
+      color      : #10b4a7 !important;
+      font-weight: bold;
+}
+
+.theme-light .tr-menu-order {
+      background-color: rgb(245, 245, 245);
+      border-bottom   : 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.theme-light .context-menu-wrapper::-webkit-scrollbar {
+      width : 8px;
+      height: 8px;
+}
+
+::-webkit-scrollbar-button {
+      width  : 0;
+      height : 0;
+      display: none;
+}
+
+::-webkit-scrollbar-corner {
+      background-color: transparent;
+}
+
+::-webkit-scrollbar-track:vertical {
+      background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track:horizontal {
+      background-clip: padding-box
+}
+
+::-webkit-scrollbar-track:vertical {
+      background-color  : rgba(207, 207, 207, 0.07);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(207, 207, 207, 0.28), inset -1px -1px 0 rgba(207, 207, 207, 0.14)
+}
+
+::-webkit-scrollbar-track:horizontal {
+      background-color  : rgba(207, 207, 207, 0.07);
+      -webkit-box-shadow: inset -1px 1px 0 rgba(207, 207, 207, 0.28), inset 1px -1px 0 rgba(207, 207, 207, 0.14)
+}
+
+::-webkit-scrollbar-track:vertical:active {
+      background-color  : rgba(207, 207, 207, 0.10);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(207, 207, 207, 0.28), inset -1px -1px 0 rgba(207, 207, 207, 0.14)
+}
+
+::-webkit-scrollbar-track:horizontal:active {
+      background-color  : rgba(207, 207, 207, 0.10);
+      -webkit-box-shadow: inset -1px 1px 0 rgba(207, 207, 207, 0.28), inset 1px -1px 0 rgba(207, 207, 207, 0.14)
+}
+
+::-webkit-scrollbar-thumb:vertical {
+      background-clip: padding-box;
+      min-height     : 28px
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+      background-clip: padding-box;
+      min-width      : 28px
+}
+
+::-webkit-scrollbar-thumb {
+      background-color  : rgba(207, 207, 207, 0.4);
+      -webkit-box-shadow: inset 1px 1px 0 rgba(207, 207, 207, 0.10), inset 0 -1px 0 rgba(207, 207, 207, 0.07)
+}
+
+::-webkit-scrollbar-thumb:hover {
+      background-color  : rgba(207, 207, 207, 0.8);
+      -webkit-box-shadow: inset 1px 1px 1px rgba(207, 207, 207, 0.50)
+}
+
+::-webkit-scrollbar-thumb:active {
+      background-color  : rgba(207, 207, 207, 0.9);
+      -webkit-box-shadow: inset 1px 1px 3px rgba(207, 207, 207, 0.6)
+}
+
+/* theme-light [END]========================================================================*/
+
+
+/* theme-blue [START]*/
+
+.theme-blue .chart-page {
+      background-color: #FFB6C1!important;
+      border-color    : rgb(250, 250, 250) !important;
+}
+
+.theme-blue .layout__area--center {
+      background-color: #FFB6C1!important;
+}
+
+.theme-blue .header-chart-panel-sizer {
+      background-color: #df668b!important;
+}
+
+.theme-blue .chart-controls-bar-buttons a:hover {
+      background-color: #df668b!important;;
+}
+
+.theme-blue .chart-controls-bar {
+      background-color: #df668b!important;;
+}
+
+.theme-blue .layout__area--left div[class^="drawingToolbar"] {
+      background-color: #df668b !important;
+      top             : -1px !important;
+}
+
+.theme-blue .chart-markup-table {
+      background:#df668b !important;
+}
+
+.theme-blue .text-defaut {
+      color: #000 !important;
+}
+
+.theme-blue .text-buy {
+      color      : #1ac316 !important;
+      font-weight: bold;
+}
+
+.theme-blue .text-sell {
+      color      : #ff2626 !important;
+      font-weight: bold;
+}
+
+.theme-blue .text-order {
+      color      : #10b4a7 !important;
+      font-weight: bold;
+}
+
+.theme-blue .tr-menu-order {
+      background-color: #df668b;
+      border-bottom   : 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.theme-blue .context-menu-wrapper::-webkit-scrollbar {
+      width : 8px;
+      height: 8px;
+}
+
+
+html.theme-blue .symbol-search-dialog .symbol-block input, html.theme-blue input.symbol-edit{
+      color: #fff;
+    border-color: #363c4e;
+    background-color: #df668b;
+}
+
+html.theme-blue .favored-list-container span {
+    border-color: #363c4e;
+    background: #df668b;
+    color: #fff;
+}
+
+html.theme-blue .bottom-widgetbar-content.backtesting .button, html.theme-blue .header-chart-panel .button, html.theme-blue .hotlist-controls .button, html.theme-blue .symbol-edit-widget .button {
+    color: #fff;
+    background: #df668b;
+    border-color: #363c4e;
+}
+
+html.theme-blue .favored-list-container span.submenu.interval-dialog-button i {
+    background: #fff;
+}
+
+html.theme-blue .chart-style-widget svg {
+      fill: white;
+}
+
+html.theme-blue .apply-common-tooltip svg {
+      fill: white;
+}
+/* html.theme-blue .button svg path{
+      fill: white;
+} */
+

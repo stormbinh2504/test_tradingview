@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--navbar-height);
+    background-color:aqua ;
+}
+
+.navbar .navbar__submenu{
+    display: flex;
+    height: 100%;
+}
+
+.navbar .navbar__submenu .navbar__submenu-btn{
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+    height: 100%;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+.navbar .navbar__submenu .navbar__submenu-btn:hover{
+    color: white;
+    background-color: #FFAC42;
+} 
+
+.navbar .navbar__submenu .navbar__submenu-btn.active{
+    color: white;
+    background-color: #FFAC42;
+} 
+
+
+.navbar__submenu-btn .navbar__dropmenu{
+    width: 125px;
+    position: absolute;
+    background-color: rgb(238, 255, 0);
+    top: 50px;
+    left: 0px;
+    display: none;
+    z-index: 99;
+    color: black;
+}
+
+
+.navbar__submenu-btn:first-child:hover .navbar__dropmenu{
+    display: block;
+} 
+
+.navbar__submenu-btn .navbar__dropmenu-item{
+    display: block;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+
+.next-submenu{
+    width: 150px;
+    position: absolute;
+    background-color: rgb(238, 255, 0);
+    top:50px;
+    left: 125px;
+    display: block;
+    z-index: 100;
+    
+}
+
+.next-submenu a{
+    padding: 5px 5px;
+}

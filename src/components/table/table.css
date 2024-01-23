@@ -1,0 +1,88 @@
+.table-wrapper {
+    overflow-y: auto;
+    
+}
+
+table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: var(--second-bg);
+}
+
+tr {
+    text-align: left;
+}
+
+th,
+td {
+    text-transform: capitalize;
+    padding: 15px 10px;
+}
+
+.table-wrapper tbody > tr:hover {
+    background-color: var(--main-color);
+    color: var(--txt-white);
+}
+
+.table__pagination {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.table__pagination-item ~ .table__pagination-item {
+    margin-left: 10px;
+}
+
+.table__pagination-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.table__pagination-item.active,
+.table__pagination-item.active:hover {
+    background-color: var(--main-color);
+    color: var(--txt-white);
+    font-weight: 600;
+}
+
+.table__pagination-item:hover {
+    color: var(--txt-white);
+    background-color: var(--second-color);
+}
+
+
+.style-center{
+    display: flex!important;;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-col{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.action-col div:nth-child(1) i{
+    color: rgb(64, 17, 233);
+}
+.action-col div:nth-child(2) i{
+    color: rgb(233, 24, 24);
+   
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Binh",
+    "menus": [
+        { "name": "Home", "link": "https://google.com.vn" },
+        { "name": "Contact", "link": "https://google.com.vn" },
+        {
+            "name": "Product",
+            "subMenus": [
+                { "name": "Man", "link": "https://google.com.vn" },
+                { "name": "Wommen", "link": "https://google.com.vn" },
+                { 
+                    "name": "T-Shirt",
+                    "subMenus": [
+                        { "name": "XL", "link": "https://google.com.vn" },
+                        { "name": "SM", "link": "https://google.com.vn" }
+                    ] }
+            ]
+        }
+    ]
+}

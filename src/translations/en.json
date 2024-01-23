@@ -1,0 +1,19 @@
+{
+    "account": {
+        "name": "storm",
+        "header": {
+            "menu":{
+                "account": "Account",
+                "priceboard": "Price board",
+                "settings": "Settings",
+                "trade": "Trade"
+            },
+            "dropmenunavbar" :{
+                "advance": "Condition Order",
+                "classic": "Basic Order Layout",
+                "classic2": "Advance Order Layout",
+                "group": "Group Order"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "account": {
+        "name": "binh",
+        "header": {
+            "menu":{
+                "account": "Tài khoản",
+                "priceboard": "Bảng giá",
+                "settings": "Thiết lập",
+                "trade": "Giao dịch"
+            },
+            "dropmenunavbar" :{
+                "advance": "Lệnh điều kiện",
+                "classic": "Lệnh cơ bản",
+                "classic2": "Lệnh nâng cao",
+                "group": "Lệnh nhóm"
+            }
+        }
+    }
+}

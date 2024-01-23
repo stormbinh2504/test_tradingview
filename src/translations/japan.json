@@ -1,0 +1,19 @@
+{
+    "account": {
+        "name": "瓶",
+        "header": {
+            "menu":{
+                "account": "アカウント",
+                "priceboard": "価格表",
+                "settings": "設立する",
+                "trade": "対処"
+            },
+            "dropmenunavbar" :{
+                "advance": "Condition Order",
+                "classic": "Basic Order Layout",
+                "classic2": "Advance Order Layout",
+                "group": "Group Order"
+            }
+        }
+    }
+}

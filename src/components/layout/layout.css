@@ -1,0 +1,14 @@
+.layout {
+    color: var(--txt-color);
+    display: flex;
+}
+
+.layout__content {
+    width: 100%;
+    background-color: var(--second-bg);
+    min-height: 100vh;
+}
+
+.layout__content-main {
+    padding: 30px;
+}

@@ -1,0 +1,30 @@
+[          
+    {
+        "Header": "Id",
+        "accessor": "id"
+    },
+    {
+        "Header": "Name",
+        "accessor": "name"
+    },
+    {
+        "Header": "Email",
+        "accessor": "email"
+    },
+    {
+        "Header": "Location" ,
+        "accessor": "location"
+    },
+    {
+        "Header": "Phone" ,
+        "accessor": "phone"
+    },
+    {
+        "Header": "Total spend" ,
+        "accessor": "total_spend"
+    },
+    {
+        "Header": "Total orders" ,
+        "accessor": "total_orders"
+    }
+]

@@ -1,0 +1,44 @@
+{
+    "customer_account_selector":
+        {
+            "account": "029C000279",
+            "account_control": [
+                {
+                    "account_value": "029C000279.NM"
+                },
+                {
+                    "account_value": "029C000279.MG"
+                },
+                {
+                    "account_value": "029C000279.MG"
+                }
+            ]
+        }
+    ,
+    "place_oder":[
+        {
+            "code": "AAA",
+            "price_buy": "17.25",
+            "price_sell": "17.30",
+            "floor_price": "5",
+            "ceil_price": "10",
+            "mid_price": "8"
+        },
+        {
+            "code": "BBB",
+            "price_buy": "18.25",
+            "price_sell": "18.30",
+            "floor_price": "10",
+            "ceil_price": "15",
+            "mid_price": "20"
+        },
+        {
+            "code": "CCE",
+            "price_buy": "31.25",
+            "price_sell": "35.30",
+            "floor_price": "12.2",
+            "ceil_price": "16.32",
+            "mid_price": "14.42"
+        }
+    ]
+}

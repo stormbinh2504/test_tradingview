@@ -1,0 +1,19 @@
+.symbol-detail-content{
+    height: 100%;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.modal-content{
+    left: -148px;
+    width: 800px!important;
+}
+.modal-header{
+    background-color: #236ABB;
+}
+.modal-title{
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #FFFFFF;
+}

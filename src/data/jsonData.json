@@ -1,0 +1,73 @@
+{
+  "menu":[
+    {
+      "text":"home",
+      "link":"https://google.com",
+      "children":[
+        {
+          "text":"Home-child",
+          "link":"https://google.com",
+          "children":[
+            {
+              "text":"home-child-child",
+              "link":"https://uottawa.ca",
+              "children":  [    
+                {
+                    "text":"Binhdz",
+                    "link":"https://uottawa.ca",
+                    "children":null
+                }
+                ]
+            },
+            {
+              "text":"home-child-chidfsdfsdf-2",
+              "link":"https://piano.uottawa.ca",
+              "children":null
+            }
+          ]
+        },
+        {
+          "text":"home-chi-2",
+          "link":"https://uottawa.ca",
+          "children":null
+        },
+        {
+          "text":"home-chi 3",
+          "link":"https://uottawa.ca",
+          "children":null
+        },
+        {
+          "text":"Home-child",
+          "link":"https://google.com",
+          "children":[
+            {
+              "text":"home-child-child",
+              "link":"https://uottawa.ca",
+              "children":null
+            },
+            {
+              "text":"home-child-chi-2",
+              "link":"https://piano.uottawa.ca",
+              "children":null
+            }
+          ]
+        },
+        {
+          "text":"home-chi 3",
+          "link":"https://uottawa.ca",
+          "children":null
+        }
+      ]
+    },
+    {
+      "text":"page 1",
+      "link":"https://google.com",
+      "children":null
+    },
+    {
+      "text":"contact",
+      "link":"https://google.com",
+      "children":null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+.chart-container-info{
+  
+}
+.highcharts-no-tooltip.highcharts-legend{
+    display: none;
+}
+.highcharts-credits{
+    display: none;
+}

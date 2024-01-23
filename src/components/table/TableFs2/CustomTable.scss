@@ -1,0 +1,38 @@
+@import "../styles/common";
+
+.react-table {
+    table {
+        tbody {
+            ::-webkit-scrollbar {
+                display: none;
+                height: 7px !important;
+                width: 7px !important;
+            }
+            .body-div {
+                scrollbar-width: thin;
+                will-change: unset !important;
+            }
+            &:hover {
+                ::-webkit-scrollbar {
+                    display: block;
+                }
+            }
+            tr {
+                &.odd {
+                    td {
+                        @include themify($themes) {
+                            background: themed("section-header-bg") !important;
+                        }
+                    }
+                }
+                &.even {
+                    td {
+                        @include themify($themes) {
+                            background: themed("section-body-dark-2") !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

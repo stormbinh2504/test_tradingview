@@ -1,0 +1,15 @@
+.TVChartContainer {
+	height: calc(100vh - 80px);
+}
+
+.text-default{
+	font-weight: bold;
+}
+
+.text-buy{
+	color: green!important;
+}
+
+.text-sell{
+	color: red;
+}

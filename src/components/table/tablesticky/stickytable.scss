@@ -1,0 +1,30 @@
+.widget-header{
+    background: #e2e2e2;
+    color: #424242;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    .menu-wrapper{
+        display: flex;
+        
+        .widget-title{
+            padding: 10px;
+            background:#e2e2e2!important;
+            cursor: pointer;
+            
+            
+            
+            &.active{
+                background: aqua!important;
+                font-weight: bold;
+            }
+        }
+        .widget-btn-expand{
+            position: absolute;
+            top: 15%;
+            right: 27px;
+            font-size: 20px;
+        }
+    }
+}
+    
+    
